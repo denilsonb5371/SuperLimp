@@ -1,0 +1,161 @@
+header{
+    margin-top: 15px;
+    height: 100%;
+    width: 100%;
+    background-color: #FA6F34;
+}
+
+.homeSubject{
+
+    background-image: url(../../public/tela.gif);
+    background-size: cover;
+    height: 500px;  
+    text-align: center;
+    padding: 10px;
+    padding-top: 50px;
+    position: relative;
+    z-index: 2;
+    font-weight: 700;
+}
+
+.Home {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    height: 100%;
+    transition:
+    opacity 2s,
+    display 2s;
+    background-color: #A4AC9F;
+
+}
+
+
+
+
+.button {
+  display: inline-block;
+  padding: .75rem 1.25rem;
+  border-radius: 10rem;
+  background-color: #281A39;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1; 
+  margin: 20px 10px;
+}
+
+ .button:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10rem;
+    z-index: -2;
+  }
+.button:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+
+  }
+ .button:hover {
+    color: #fff;
+
+    }
+
+  .home-Service{
+    width: 100%;
+  }
+
+
+
+/* optional reset for presentation */
+* {
+  font-family: Arial;
+  text-decoration: none;
+  font-size: 20px;
+}
+.container {
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: .8rem;
+  margin-bottom: 2rem;
+  color: #777;
+}
+span {
+  display: block;
+  margin-top: 2rem;
+  font-size: .7rem;
+  color: #777;
+  a {
+    font-size: .7rem;
+    color: #999;
+    text-decoration: underline;
+  }
+}
+
+.mobile-Service {
+  display: none;
+}
+
+.homeSubject-mobile{
+  display: none;
+}
+
+@media screen and (max-width: 768px) { 
+    .homeImage{
+      height: 70%;
+    }
+
+    .homeTitle{
+       top: 20px;
+       
+    }
+
+    .home-Service{
+    display: none;
+    }
+
+    .mobile-Service {
+      display: block;
+      width: 100%;
+    }
+
+    .homeSubject{
+      display: none;
+    }
+
+    .homeSubject-mobile{
+        background-image: url(../../public/tela.gif);
+    background-size: cover;
+    height: 300px;  
+    color:  #281A39;
+    text-align: center;
+    padding: 10px;
+    padding-top: 50px;
+    position: relative;
+    z-index: 2;
+    font-weight: 700;
+      display: block;
+    }
+
+      
+  
+  }

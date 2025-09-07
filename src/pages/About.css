@@ -1,0 +1,28 @@
+.About {
+   width: 100%; 
+   background-color: #281A39;
+
+}
+
+.about-Imagens{
+  margin-top: 25px;
+  width: 100%;
+}
+
+.about-Imagens-2{
+  width: 100%;
+}
+
+
+@media screen and (max-width: 768px) { 
+
+.about-Imagens{
+  width: 100%;
+}
+
+.about-Imagens-2{
+  width: 100%;
+}
+
+
+}
